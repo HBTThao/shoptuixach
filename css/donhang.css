@@ -1,0 +1,17 @@
+.donhang__content{
+    background:#fffcf7;
+}
+.donhang__content > div{
+    border-bottom: 1px solid #e5e5e5;
+}
+.donhang__icons > ul{
+    display:flex;
+    justify-content: space-around;
+}
+.donhang__icons ul li ul{
+    margin: 20px auto;
+    line-height: 30px;
+}
+.donhang__icons i{
+    font-size: 20px;
+}

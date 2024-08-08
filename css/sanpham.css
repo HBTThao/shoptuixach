@@ -1,0 +1,104 @@
+.chitietsp_items{
+	display:flex;
+	margin-top: 150px;
+}
+.chitietsp img{
+	width:300px;
+	height: 380px;
+	background:#fffcf7;
+	padding: 30px 90px;
+}
+.chitietsp__nd{
+	background:#fffcf7;
+	margin-left: 100px;
+	padding: 5px 70px;
+}
+/********************************************** Tên **********************************************/
+.chitietsp__ten{
+	font-size: 25px;
+	color: rgb(68, 68, 68);
+} 
+/********************************************** Đánh giá **********************************************/
+.chitietsp__danhgia, .chitietsp__mau{
+	display:flex; 
+}
+.chitietsp__danhgia{
+	margin: -15px auto auto -45px;
+}
+.chitietsp__danhgia li{
+	list-style: none;
+	font-size: 9px;
+	padding-left: 5px;
+	color: rgb(68, 68, 68);
+}
+/********************************************** Giá **********************************************/
+.chitietsp__gia{
+	font-size: 20px;
+	color: rgb(68, 68, 68);
+	margin-top: 30px;
+	border-top: 1px solid #e5e5e5;
+    line-height: 80px;
+}
+/********************************************** Màu sắc **********************************************/
+.chitietsp__mau{
+    margin: -20px auto 30px -20px;
+}
+.chitietsp__mau >div{
+    width: 40px;
+	height: 40px;
+	margin-left: 20px;
+}
+.white{
+    background: rgb(239, 236, 236);
+}
+.grey{
+    background: rgb(218, 216, 216);
+}
+.black{
+    background:black;
+}
+.brown{
+    background: rgb(145, 105, 71);
+}
+/********************************************** Số lượng **********************************************/
+.chitietsp__sl{
+	margin: 10px auto 30px 0px;
+}
+.chitietsp__sl span{
+	margin-right: 40px;
+}
+.chitietsp__sl input{
+	border-radius: 3px;
+	border: 1px solid  #e5e5e5;
+	color:rgb(68, 68, 68);
+	padding: 5px 15px;
+	text-align: center;
+}
+/********************************************** Thêm vào giỏ hàng **********************************************/
+.chitietsp__input{
+	border-top: 0.5px solid #e5e5e5;
+}
+.chitietsp__input input{
+	color:#fff;
+	padding: 15px 60px;
+	border: none;
+	border-radius: 4px;
+	background: rgb(68, 68, 68);
+	font-weight: 700;
+	margin: 30px 50px 0px;
+}
+/********************************************** Thông tin sản phẩm **********************************************/
+.chitietsp__ttsp{
+	background:#fffcf7;
+	text-align: justify;
+	margin: 100px auto;
+	padding: 70px 150px;
+	color: rgb(68, 68, 68);
+}
+.chitietsp__ttsp h4{
+	font-size: 25px;
+	font-weight: 500;
+}
+.motasp{
+	line-height: 25px;
+}

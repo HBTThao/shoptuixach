@@ -1,0 +1,63 @@
+/********************************************* Menu danh mục *****************************************/
+.danhmuc__menu{
+	margin: 20px 0px 50px;
+}
+.danhmuc__menu > ul{
+	display: flex;
+	background:#fffcf7;
+}
+.danhmuc__menu li{
+	list-style: none;
+	padding: 10px 20px;
+}
+.danhmuc__menu p{
+	font-size: 14px;
+	font-weight: 700;
+}
+.danhmuc__menu i{
+	font-size: 10px;
+}
+.danhmuc__list a, .danhmuc__menu a{
+	text-decoration: none;
+	color: rgb(68, 68, 68);
+	font-size:13px;
+}
+.danhmuc__menu li ul{
+	display: none;
+	position: absolute;
+	margin-top: 10px;
+}
+.danhmuc__menu li:hover ul{
+	display:block;
+}
+.danhmuc__menu > ul > li{
+	position: relative;
+}
+.danhmuc__menu ul li ul li{
+	background:#fffcf7;
+	margin-left: -80px;
+	border: 1px solid #e5e5e5;
+	width: 100px;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+}
+/************************************ Sản phẩm theo danh muc "nội dung" ***************************************/
+.danhmuc__content{
+	display:flex;
+	flex-wrap:wrap;
+}
+.danhmuc__list{
+	margin-right: 53px;
+	margin-bottom: 30px;
+	line-height: 30px;
+	width: 20%;
+}
+.danhmuc__list img{
+	width: 260px;
+	height: 300px;
+}
+.danhmuc__list a{
+	text-decoration: none;
+	color: rgb(68, 68, 68);
+}

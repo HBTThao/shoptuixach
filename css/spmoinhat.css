@@ -1,0 +1,14 @@
+.spmoinhat__content{
+    display:flex;
+    flex-wrap:wrap;
+}
+.spmoinhat__list{
+    margin-right: 53px;
+	margin-bottom: 30px;
+	line-height: 13px;
+	width: 20%;
+}
+.spmoinhat__list img{
+	width: 255px;
+	height: 300px;
+}

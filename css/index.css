@@ -1,0 +1,33 @@
+body{
+	background: #f6f1eb;
+	color: rgb(68, 68, 68);
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+	margin: 150px 90px 90px;
+}	
+.container > div{
+	margin-top: 100px;
+}
+.container h2{
+	text-align: center;
+}
+.container li{
+    list-style: none;
+}
+.container a{
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+}
+.tensp{
+    font-weight:700;
+	font-size: 15px;
+	margin-bottom: -5px;
+}
+.giasp{
+	font-size: 13px;
+}
+.chuthich{
+	text-align: center;
+	margin: 20px auto 30px;
+}

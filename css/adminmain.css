@@ -1,0 +1,59 @@
+body{
+	background: #f6f1eb;
+	color: rgb(68, 68, 68);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wrapper li{
+    list-style: none;
+}
+.wrapper a{
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+}
+/************************************************* Dashboard *******************************************************/
+.dashboard{
+    margin: 230px 400px;
+}
+.dashboard h2{
+	text-align: center;
+}
+.chuthich{
+	text-align: center;
+	margin: 20px auto 30px;
+}
+/************************************************* Admin Header *******************************************************/
+.adminheader{
+    background-color: white;
+	margin-bottom: 15px;
+}
+.adminheader > ul{
+    display: flex;
+}
+.adminheader ul li{
+    padding: 15px 50px 15px 0px;
+}
+.admin__ten{
+    font-weight:700;
+	font-size: 15px;
+}
+
+/************************************************* Admin container *******************************************************/
+.admincontainer{
+    display:flex;
+}
+.adminmenu{
+    float: 3;
+}
+.adminmain{
+    float:7;
+}
+/************************************************* Admin menu *******************************************************/
+.adminmenu{
+    background-color: white;
+    width: 210px;
+    height: 800px;
+}
+.adminmenu ul li{
+    padding: 30px  5px 1px 5px;
+}

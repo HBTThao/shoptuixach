@@ -1,0 +1,83 @@
+/************************************************* Header ******************************************/
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+/*********************************************** Header 1 ********************************************/
+.header1{
+	background: #f6f1eb;
+	display:flex;
+	justify-content: space-between;
+}
+.header1 ul{
+	margin-left: 50px;
+	margin-right:90px;
+}
+.header1 li{
+	list-style: none;
+	display: inline-block;
+	margin: auto 8px;
+	position: relative;
+}
+.header1 a{
+	text-decoration: none;
+	color: rgb(68, 68, 68);
+	font-size: 13px;
+}
+.separate::after{
+	content:"";
+	display: block;
+	position: absolute;
+	border: 0.5px solid rgb(68, 68, 68);
+	height: 10px;
+	right: -11px;
+	top: 3px;
+}
+/*********************************************** Header 2 ********************************************/
+.header2{
+	background: #f6f1eb;
+	display:flex;
+	justify-content: space-between;
+	padding: 15px;
+	height: 50px;
+}
+/*logo*/
+.logo img{
+	margin-top: -120px;
+	width: 280px;
+	height: 280px;
+	margin-left: 15px;
+}
+/* Search */
+.search{
+	margin-left: -80px;
+	margin-top: 15px;
+}
+.search input{
+	padding: 10px;
+	width: 600px;
+	color: rgb(68, 68, 68);
+	font-size: 11px;
+}
+.search button{
+	background: white;
+	border: none;
+	margin-left: -40px;
+	color: rgb(68, 68, 68);
+	font-size: 15px;
+}
+/* Cart */
+.cart{
+	margin-right: 85px;
+	margin-top: 30px;
+}
+.cart a{
+	text-decoration: none;
+	color: rgb(68, 68, 68);
+}
+.cart span{
+	font-size:15px;
+	padding-left: 8px;
+}

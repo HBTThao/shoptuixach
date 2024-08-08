@@ -1,0 +1,13 @@
+.menu__list{
+	background:#fffcf7;
+    padding: 20px 40px 2px 0px;
+}
+.menu__list > ul{
+	display:flex;
+	justify-content: space-between;
+}
+/* Hình ảnh */
+.menu__list img{
+	width: 220px;
+    height: 220px;
+}

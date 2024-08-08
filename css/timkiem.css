@@ -1,0 +1,18 @@
+.timkiem__content{
+	display:flex;
+	flex-wrap:wrap;
+}
+.timkiem__list{
+	margin-right: 53px;
+	margin-bottom: 30px;
+	line-height: 30px;
+	width: 20%;
+}
+.timkiem__list img{
+	width: 260px;
+	height: 300px;
+}
+.timkiem__list a{
+	text-decoration: none;
+	color: rgb(68, 68, 68);
+}

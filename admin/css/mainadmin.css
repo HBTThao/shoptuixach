@@ -1,0 +1,23 @@
+ul.admin-list-menu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul.admin-list-menu li{
+    float: left;
+    margin: 5px;
+}
+.clear{
+    clear: both;
+}
+h3.title-admin{
+    text-align: center;
+    font-size: 35px;
+    color: palevioletred
+}
+.wrapper{
+    border: 1px solid blue;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}

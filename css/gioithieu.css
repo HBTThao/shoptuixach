@@ -1,0 +1,17 @@
+.gioithieu__content{
+	display:flex;
+	background-color: #fffcf7;
+	padding: 10px 10px 5px 10px;
+}
+.gioithieu__img img{
+	width: 320px;
+	height: 320px;
+}
+.gioithieu__items{
+	margin: 30px 50px auto 60px;
+	text-align: justify;
+}
+.gioithieu__items p{
+	line-height: 25px;
+	
+}

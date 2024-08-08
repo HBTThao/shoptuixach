@@ -1,0 +1,32 @@
+<div class = "main">
+    <div class="main-content">
+        <?php
+            if(isset($_GET['quanly'])){
+                $tam=$_GET['quanly'];
+            }else{
+                $tam='';
+            }
+                if($tam=='danhmuc'){
+                    include("content/danhmuc.php");
+                }elseif($tam=='giohang'){
+                    include("content/giohang.php");
+                }elseif($tam=='sanpham'){
+                    include("content/sanpham.php");
+                }elseif($tam=='dangky'){
+                    include("content/dangky.php");
+                }elseif($tam=='dangnhap'){
+                    include("content/dangnhap.php");
+                }elseif($tam=='thanhtoan'){
+                    include("content/thanhtoan.php");
+                }elseif($tam=='timkiem'){
+                    include("content/timkiem.php");
+                }elseif($tam=='thankyou'){
+                    include("content/thankyou.php");
+                }elseif($tam=='donhang'){
+                    include("content/donhang.php");
+                }else{
+                    include("content/maincontent.php");
+                }
+        ?>
+    </div>
+</div>

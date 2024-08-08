@@ -1,0 +1,53 @@
+.dangky__content{
+	background:#fffcf7;
+	padding: 50px;
+	width: 1000;
+	height: 420px;
+	line-height: 30px;
+	color: rgb(68, 68, 68);
+	border-radius: 5px;
+}
+.dangky__content{
+    display:flex;
+}
+.dangky__content label{
+	font-size: 13px;
+}
+.dangky__list{
+    flex:5;
+    margin-top: -20px;
+}
+.dangky__list p{
+    margin: 10px auto;
+}
+.dangky__items{
+    flex:5;
+}
+.dangky__content input{
+	padding: 10px 15px;
+	border-radius: 4px;
+	border: 1px solid  #e5e5e5;
+    width: 80%;
+	box-sizing: border-box;
+}
+
+.dieukhoan{
+    display:flex;
+    background: #f6f1eb;
+    padding: 8px 8px 8px 18px;
+}
+.noidungdk p{
+    margin: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+}
+.chapnhandk{
+    margin-top: 20px;
+}
+.register{
+    margin: 30px auto 20px 50px;
+	background: rgb(68, 68, 68);
+	border:none;
+	color:#fffcf7;
+}

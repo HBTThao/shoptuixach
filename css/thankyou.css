@@ -1,0 +1,17 @@
+.thankyou__content{
+    text-align: center;
+    background:#fffcf7;
+}
+.thankyou__content i{
+    font-size: 30px;
+    margin-top: 100px;
+}
+.thankyou__content button{
+    color:#fffcf7;
+    background: rgb(68, 68, 68);
+    border:none;
+    border-radius: 3px;
+    padding: 10px 50px;
+    margin-bottom: 100px;
+    font-weight: 700;
+}

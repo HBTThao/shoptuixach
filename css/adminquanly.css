@@ -1,0 +1,41 @@
+.adminquanly{
+    margin: auto 15px;
+    background-color: white;
+    width: 1010px;
+}
+.adminquanly table{
+    width:100%;
+    text-align: center;
+}
+.adminquanly tr,td,th{
+    padding: 15px;
+    border: 1px solid #444;
+    background-color: white;
+}
+.adminquanly__them, .adminquanly__lietke{
+    line-height: 15px;
+    padding: 30px 50px;
+}
+/* Thêm danh mục */
+.adminquanly__them input, .adminquanly__them textarea, .adminquanly__them select{
+    border: none;
+    border-radius: 4px;
+    border: 1px solid  #e5e5e5;
+    width: 95%;
+    padding: 10px 15px;
+    margin: 15px auto;
+}
+.adminquanly__them label, .adminquanly__lietke table tr td{
+    font-size: 15px;
+}
+.admin__submit{
+    width: 50%;
+	background: rgb(68, 68, 68);
+	border:none;
+	color:#fffcf7;
+}
+/* Liệt kê danh mục */
+.adminquanly__lietke{
+    margin: 15px auto;
+}
+
